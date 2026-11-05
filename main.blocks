@@ -1,1 +1,287 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="k;_.d]sP`8a%S-*g-K:R">strip</variable></variables><block type="device_forever" id="*Xt0K+ZT.k;=HnxS+j=s" x="0" y="0"><statement name="HANDLER"><block type="controls_repeat_ext" id="b$_^|W{6My$pbQb,B;v0"><value name="TIMES"><shadow type="math_whole_number" id="S;^!jix6e:m]6Aqx}LN0"><field name="NUM">1e+98</field></shadow></value><statement name="DO"><block type="variables_set" id="h.VG=`O-/V!N$!_v@%!W"><field name="VAR" id="k;_.d]sP`8a%S-*g-K:R">strip</field><value name="VALUE"><shadow type="math_number" id="Vd#x-qnui.6vvQm)T9_s"><field name="NUM">0</field></shadow><block type="sonar_ping" id="@hqe~]T=N8y8V;aI_$St"><field name="trig">DigitalPin.P0</field><field name="echo">DigitalPin.P0</field><field name="unit">PingUnit.Centimeters</field></block></value><next><block type="basic_show_icon" id="(DBi-(KC-S#U=V[-MdFV"><field name="i">IconNames.SmallDiamond</field><next><block type="basic_show_icon" id="k}*rO8^Brf[Zpm!#?n~C"><field name="i">IconNames.No</field><next><block type="basic_show_icon" id="Xp92skmo0vsn/xn?oid|"><field name="i">IconNames.Happy</field><next><block type="radio_datagram_send" id="=g$~[T=s_D,?ZF^#cni3"><value name="value"><shadow type="math_number" id="~z^k=M4rjB2q66=J{{:p"><field name="NUM">876</field></shadow></value><next><block type="record_startRecording" id="q+iYAx9VZiZkDM{a7%ci"><field name="mode">record.BlockingState.Nonblocking</field><next><block type="dataloggerlog" id="J$GYF/-y5X=)cb8_!mND" inline="true"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="data1"><shadow type="dataloggercreatecolumnvalue" id="=[_|AbZ1{g+brUon[4;U"><value name="column"><shadow type="datalogger_columnfield" id="AnK3C9DObtIx(@7UI=X["><field name="column">1e+900</field></shadow></value><value name="value"><shadow type="math_number" id="HZ|:Xpa9-cBo]vc))~U("><field name="NUM">980</field></shadow></value></shadow><block type="dataloggercreatecolumnvalue" id=")F=M`B/5:ZDb!k%hA3e!"><value name="column"><shadow type="datalogger_columnfield" id="`}{]96Fiy6)r1RGK8LFz"><field name="column">1e+900</field></shadow></value><value name="value"><shadow type="math_number" id=")=i.,C~8Rx_D05eOpZ5#"><field name="NUM">980</field></shadow><block type="Environment_doubleTrackingValue" id="{BguaP9v*ZKqOu$Ts3R}"><field name="pin1">DigitalPin.P0</field><field name="pin2">DigitalPin.P0</field><field name="state">Environment.TrackingStateType.Tracking_State_0</field></block></value></block></value><value name="data2"><shadow type="dataloggercreatecolumnvalue" id="uVt-jyJ}z{5!PIlJW)|["><value name="column"><shadow type="datalogger_columnfield" id="5t;OE525rQcYFZ8fNGtk"><field name="column"></field></shadow></value><value name="value"><shadow type="math_number" id="RdU_pMm7t-zRsX@CMfyY"><field name="NUM">0</field></shadow></value></shadow></value><value name="data3"><shadow type="dataloggercreatecolumnvalue" id="%UKS2XFA^|KEQyKrO~/5"><value name="column"><shadow type="datalogger_columnfield" id="h[/C01Ob,:W:@z%6_bUW"><field name="column"></field></shadow></value><value name="value"><shadow type="math_number" id="Fr!N8G0PYpifK;X}4Okd"><field name="NUM">0</field></shadow></value></shadow></value><value name="data4"><shadow type="dataloggercreatecolumnvalue" id="(m?AHYiV6bwK|@ok9~0Z"><value name="column"><shadow type="datalogger_columnfield" id="gI}Ftb.C$jAa=1!9MXp9"><field name="column"></field></shadow></value><value name="value"><shadow type="math_number" id="AuehUhT!eX+b;`Vi#{G|"><field name="NUM">0</field></shadow></value></shadow></value><value name="data5"><shadow type="dataloggercreatecolumnvalue" id="l-S)9/}rmhd7(|1W,xX("><value name="column"><shadow type="datalogger_columnfield" id="0k$|H}}0iIkJ~{HfTH*O"><field name="column"></field></shadow></value><value name="value"><shadow type="math_number" id="5)Oz~v`C$PC%F}~vD)PJ"><field name="NUM">0</field></shadow></value></shadow></value><value name="data6"><shadow type="dataloggercreatecolumnvalue" id="Ov,}0GKp2B)y3~3zG{aJ"><value name="column"><shadow type="datalogger_columnfield" id="2)6TY;^o7Q?,.fj6^*-+"><field name="column"></field></shadow></value><value name="value"><shadow type="math_number" id="v3m`UoW$cUvuN6}Xsot["><field name="NUM">0</field></shadow></value></shadow></value><value name="data7"><shadow type="dataloggercreatecolumnvalue" id="5HYX28lnY.E3;Df_2zM/"><value name="column"><shadow type="datalogger_columnfield" id="-JFSbd?Vbq,GgQaF7,@|"><field name="column"></field></shadow></value><value name="value"><shadow type="math_number" id="#ul9VX5!Y~S~Z]lusw;b"><field name="NUM">0</field></shadow></value></shadow></value><value name="data8"><shadow type="dataloggercreatecolumnvalue" id="2[]rUB5aH|!L*34p+wJt"><value name="column"><shadow type="datalogger_columnfield" id="FOH{S-0G+ia9-[pi2YWy"><field name="column"></field></shadow></value><value name="value"><shadow type="math_number" id="$@jjd}cEgOsrAy=4dk5N"><field name="NUM">0</field></shadow></value></shadow></value><value name="data9"><shadow type="dataloggercreatecolumnvalue" id="4I%4YnL0/q@c=TCRyjvX"><value name="column"><shadow type="datalogger_columnfield" id="vM.+6_U-UoPW{$%Mpb-J"><field name="column"></field></shadow></value><value name="value"><shadow type="math_number" id="$I|7vY)[CSXpf(kNI-u6"><field name="NUM">0</field></shadow></value></shadow></value><value name="data10"><shadow type="dataloggercreatecolumnvalue" id="!`##m_,EK$vJrBYIZtur"><value name="column"><shadow type="datalogger_columnfield" id="BQz1O_?E$:lT=|LhH6_d"><field name="column"></field></shadow></value><value name="value"><shadow type="math_number" id="`02X{(gRnHQ*T3V*gMSx"><field name="NUM">0</field></shadow></value></shadow></value><next><block type="kitronik_servolite_drive_forwards" id="-(!Ys(0}3#G]t.5#TQX["><value name="howFar"><shadow type="math_number" id="OW8KW;:pcTe|zyT[M`}*"><field name="NUM">990</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement><next><block type="ESP8266_IoT_initWIFI" id="O=5ugrVx1IVeFQcrTeH;"><field name="tx">SerialPin.P8</field><field name="rx">SerialPin.P12</field><field name="baudrate">BaudRate.BaudRate115200</field><next><block type="tft24_backlightCtrl" id="G{@b+Z(qucc/SBWOLE?_"><field name="cmd">tft24.BlkCmdEnum.BlkOpen</field><next><block type="dataloggerlog" id="sz_~do`m,ryteuPZxZzZ" inline="true"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="data1"><shadow type="dataloggercreatecolumnvalue" id="xwtml0hcFT^MJp/px=Bt"><value name="column"><shadow type="datalogger_columnfield" id="6U/$az][FW?G_Se(@M}i"><field name="column">1e+9880</field></shadow></value><value name="value"><shadow type="math_number" id="5}g8Ru3Uxb@+ycJp3n1t"><field name="NUM">0</field></shadow></value></shadow></value><value name="data2"><shadow type="dataloggercreatecolumnvalue" id="N?:l~7u6DyK=rP-KqE4$"><value name="column"><shadow type="datalogger_columnfield" id="dbn+utaMqKiK^-RL,j?="><field name="column"></field></shadow></value><value name="value"><shadow type="math_number" id="/PqRMA`b~FSOfE0sX52t"><field name="NUM">0</field></shadow></value></shadow></value><value name="data3"><shadow type="dataloggercreatecolumnvalue" id="u!SwpW|})pRyKCgk!Z#F"><value name="column"><shadow type="datalogger_columnfield" id="P8f[kmpf=o8hwx]1`HPE"><field name="column"></field></shadow></value><value name="value"><shadow type="math_number" id="CC/RI{0NY/mv1Z@`@_vr"><field name="NUM">0</field></shadow></value></shadow></value><value name="data4"><shadow type="dataloggercreatecolumnvalue" id="?|1Lf1:`aq-4jAjDmSD?"><value name="column"><shadow type="datalogger_columnfield" id="x7!$y!NZ_y|Qi}wl0TA-"><field name="column"></field></shadow></value><value name="value"><shadow type="math_number" id="CA42Jr--6cC{)B3p},,V"><field name="NUM">0</field></shadow></value></shadow></value><value name="data5"><shadow type="dataloggercreatecolumnvalue" id="%Zgzu+H5UCbT3=AI}(Jo"><value name="column"><shadow type="datalogger_columnfield" id="irINH~[-/K#|V/$Ru*[n"><field name="column"></field></shadow></value><value name="value"><shadow type="math_number" id="Q9Lf!s?G-~{]T1!,x`Q#"><field name="NUM">0</field></shadow></value></shadow></value><value name="data6"><shadow type="dataloggercreatecolumnvalue" id="]7Omq:ZyMIekE`Xa3j0J"><value name="column"><shadow type="datalogger_columnfield" id="L;UGUPgXguM_BjUNiI9."><field name="column"></field></shadow></value><value name="value"><shadow type="math_number" id="y]z/9QAa6?f$Yt;vyI-#"><field name="NUM">0</field></shadow></value></shadow></value><value name="data7"><shadow type="dataloggercreatecolumnvalue" id="oqGNi[o^n$f:I4^tWLFz"><value name="column"><shadow type="datalogger_columnfield" id="LsaQW!Yb23|+$q%F8,Z`"><field name="column"></field></shadow></value><value name="value"><shadow type="math_number" id="[e:Z$T+8]G88Mez;4F#E"><field name="NUM">0</field></shadow></value></shadow></value><value name="data8"><shadow type="dataloggercreatecolumnvalue" id="!MXix.Na1_#YmF:elsm@"><value name="column"><shadow type="datalogger_columnfield" id="B/O[D@wrw5,pA8,OX|hf"><field name="column"></field></shadow></value><value name="value"><shadow type="math_number" id="^RJy-SZ@-|Ms/}i%y8;i"><field name="NUM">0</field></shadow></value></shadow></value><value name="data9"><shadow type="dataloggercreatecolumnvalue" id="gG%}!2d-acwyR6gia$gC"><value name="column"><shadow type="datalogger_columnfield" id="}WZgf1]`L#C%]g$R8q`s"><field name="column"></field></shadow></value><value name="value"><shadow type="math_number" id="X61ZWX$3`ts)b5et%Ql]"><field name="NUM">0</field></shadow></value></shadow></value><value name="data10"><shadow type="dataloggercreatecolumnvalue" id="]*~J8i~Uu97BEQ^W_y,K"><value name="column"><shadow type="datalogger_columnfield" id="2/^B{Uq;w(h3$+,t_7o$"><field name="column"></field></shadow></value><value name="value"><shadow type="math_number" id="rW($lmSyQ(HsRM{h!d$2"><field name="NUM">0</field></shadow></value></shadow></value><next><block type="smarthon_iot_bit_initialize_wifi" id="sdU%R?P_./wiIk3ce=L["><field name="txPin">SerialPin.P16</field><field name="rxPin">SerialPin.P8</field></block></next></block></next></block></next></block></next></block></statement></block><block type="neopixel_create" id="GJsqC?Fq%_(ZFG45]5+d" disabled-reasons="pxt_automatic_disabled" x="240" y="173"><field name="pin">DigitalPin.P0</field><field name="mode">NeoPixelMode.RGB</field><value name="numleds"><shadow type="math_number" id="4,R?;TmS(_xH$LdxEj0," disabled-reasons="pxt_automatic_disabled"><field name="NUM">908</field></shadow></value></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="k;_.d]sP`8a%S-*g-K:R">strip</variable>
+    <variable id="turn-dir">turn</variable>
+  </variables>
+  <block type="device_button_event" id="btnA" x="20" y="20">
+    <field name="NAME">Button.A</field>
+    <statement name="HANDLER">
+      <block type="variables_set" id="setLeft">
+        <field name="VAR" id="turn-dir">turn</field>
+        <value name="VALUE">
+          <shadow type="math_number" id="zeroLeft">
+            <field name="NUM">0</field>
+          </shadow>
+          <block type="math_number" id="numLeft">
+            <field name="NUM">-1</field>
+          </block>
+        </value>
+        <next>
+          <block type="basic_show_arrow" id="arrowLeft">
+            <value name="i">
+              <shadow type="device_arrow" id="arrowLeftShadow">
+                <field name="arrow">ArrowNames.West</field>
+              </shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="device_button_event" id="btnB" x="20" y="220">
+    <field name="NAME">Button.B</field>
+    <statement name="HANDLER">
+      <block type="variables_set" id="setRight">
+        <field name="VAR" id="turn-dir">turn</field>
+        <value name="VALUE">
+          <shadow type="math_number" id="zeroRight">
+            <field name="NUM">0</field>
+          </shadow>
+          <block type="math_number" id="numRight">
+            <field name="NUM">1</field>
+          </block>
+        </value>
+        <next>
+          <block type="basic_show_arrow" id="arrowRight">
+            <value name="i">
+              <shadow type="device_arrow" id="arrowRightShadow">
+                <field name="arrow">ArrowNames.East</field>
+              </shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="pxt-on-start" id="onStart" x="420" y="20">
+    <statement name="HANDLER">
+      <block type="radio_set_group" id="setGroup">
+        <value name="ID">
+          <shadow type="math_number" id="groupNum">
+            <field name="NUM">1</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="radio_datagram_send" id="helloRadio">
+            <value name="value">
+              <shadow type="math_number" id="helloNum">
+                <field name="NUM">876</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="record_startRecording" id="recordClip">
+                <field name="mode">record.BlockingState.Nonblocking</field>
+                <next>
+                  <block type="smarthon_iot_bit_initialize_wifi" id="wifiInit">
+                    <field name="txPin">SerialPin.P16</field>
+                    <field name="rxPin">SerialPin.P8</field>
+                    <next>
+                      <block type="basic_show_icon" id="iconDiamond">
+                        <field name="i">IconNames.SmallDiamond</field>
+                        <next>
+                          <block type="basic_show_icon" id="iconNo">
+                            <field name="i">IconNames.No</field>
+                            <next>
+                              <block type="basic_show_icon" id="iconHappy">
+                                <field name="i">IconNames.Happy</field>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="device_forever" id="driveLoop" x="20" y="460">
+    <statement name="HANDLER">
+      <block type="controls_if" id="steerIf">
+        <mutation elseif="1" else="1"></mutation>
+        <value name="IF0">
+          <block type="logic_compare" id="cmpLeft">
+            <field name="OP">LT</field>
+            <value name="A">
+              <block type="variables_get" id="getTurnLeft">
+                <field name="VAR" id="turn-dir">turn</field>
+              </block>
+            </value>
+            <value name="B">
+              <shadow type="math_number" id="cmpLeftZero">
+                <field name="NUM">0</field>
+              </shadow>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="kitronik_servolite_turn_left" id="doLeft">
+            <value name="deg">
+              <shadow type="math_number" id="leftDeg">
+                <field name="NUM">45</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="variables_set" id="clearLeft">
+                <field name="VAR" id="turn-dir">turn</field>
+                <value name="VALUE">
+                  <shadow type="math_number" id="clearLeftNum">
+                    <field name="NUM">0</field>
+                  </shadow>
+                </value>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <value name="IF1">
+          <block type="logic_compare" id="cmpRight">
+            <field name="OP">GT</field>
+            <value name="A">
+              <block type="variables_get" id="getTurnRight">
+                <field name="VAR" id="turn-dir">turn</field>
+              </block>
+            </value>
+            <value name="B">
+              <shadow type="math_number" id="cmpRightZero">
+                <field name="NUM">0</field>
+              </shadow>
+            </value>
+          </block>
+        </value>
+        <statement name="DO1">
+          <block type="kitronik_servolite_turn_right" id="doRight">
+            <value name="deg">
+              <shadow type="math_number" id="rightDeg">
+                <field name="NUM">45</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="variables_set" id="clearRight">
+                <field name="VAR" id="turn-dir">turn</field>
+                <value name="VALUE">
+                  <shadow type="math_number" id="clearRightNum">
+                    <field name="NUM">0</field>
+                  </shadow>
+                </value>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <statement name="ELSE">
+          <block type="kitronik_servolite_drive_forwards" id="drive">
+            <value name="howFar">
+              <shadow type="math_number" id="driveDist">
+                <field name="NUM">10</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="device_pause" id="drivePause">
+                <value name="pause">
+                  <shadow type="math_number" id="pauseMs">
+                    <field name="NUM">100</field>
+                  </shadow>
+                </value>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="variables_set" id="setStrip">
+            <field name="VAR" id="k;_.d]sP`8a%S-*g-K:R">strip</field>
+            <value name="VALUE">
+              <shadow type="math_number" id="stripZero">
+                <field name="NUM">0</field>
+              </shadow>
+              <block type="sonar_ping" id="ping">
+                <field name="trig">DigitalPin.P0</field>
+                <field name="echo">DigitalPin.P0</field>
+                <field name="unit">PingUnit.Centimeters</field>
+              </block>
+            </value>
+            <next>
+              <block type="radio_datagram_send" id="sendDist">
+                <value name="value">
+                  <shadow type="math_number" id="sendShadow">
+                    <field name="NUM">0</field>
+                  </shadow>
+                  <block type="variables_get" id="getStrip">
+                    <field name="VAR" id="k;_.d]sP`8a%S-*g-K:R">strip</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="dataloggerlog" id="logRow" inline="true">
+                    <mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation>
+                    <value name="data1">
+                      <shadow type="dataloggercreatecolumnvalue" id="cv1shadow">
+                        <value name="column">
+                          <shadow type="datalogger_columnfield" id="col1shadow">
+                            <field name="column">cm</field>
+                          </shadow>
+                        </value>
+                        <value name="value">
+                          <shadow type="math_number" id="val1shadow">
+                            <field name="NUM">0</field>
+                          </shadow>
+                        </value>
+                      </shadow>
+                      <block type="dataloggercreatecolumnvalue" id="cv1">
+                        <value name="column">
+                          <shadow type="datalogger_columnfield" id="col1">
+                            <field name="column">cm</field>
+                          </shadow>
+                        </value>
+                        <value name="value">
+                          <shadow type="math_number" id="val1">
+                            <field name="NUM">0</field>
+                          </shadow>
+                          <block type="variables_get" id="logStrip">
+                            <field name="VAR" id="k;_.d]sP`8a%S-*g-K:R">strip</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <value name="data2">
+                      <shadow type="dataloggercreatecolumnvalue" id="cv2shadow">
+                        <value name="column">
+                          <shadow type="datalogger_columnfield" id="col2shadow">
+                            <field name="column"></field>
+                          </shadow>
+                        </value>
+                        <value name="value">
+                          <shadow type="math_number" id="val2shadow">
+                            <field name="NUM">0</field>
+                          </shadow>
+                        </value>
+                      </shadow>
+                      <block type="dataloggercreatecolumnvalue" id="cv2">
+                        <value name="column">
+                          <shadow type="datalogger_columnfield" id="col2">
+                            <field name="column">line</field>
+                          </shadow>
+                        </value>
+                        <value name="value">
+                          <shadow type="math_number" id="val2">
+                            <field name="NUM">0</field>
+                          </shadow>
+                          <block type="Environment_doubleTrackingValue" id="track">
+                            <field name="pin1">DigitalPin.P0</field>
+                            <field name="pin2">DigitalPin.P0</field>
+                            <field name="state">Environment.TrackingStateType.Tracking_State_0</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>

@@ -1,6 +1,6 @@
 {
     "name": "mightcarrace",
-    "description": "",
+    "description": "Steerable micro:bit race car. Button A turns left, Button B turns right, and the car keeps driving forward.",
     "dependencies": {
         "core": "*",
         "radio": "*",
