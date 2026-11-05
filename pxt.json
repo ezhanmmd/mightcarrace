@@ -1,13 +1,12 @@
 {
     "name": "mightcarrace",
-    "description": "",
+    "description": "Steerable micro:bit race car. Button A turns left, Button B turns right, and the car keeps driving forward.",
     "dependencies": {
         "core": "*",
         "radio": "*",
         "microphone": "*",
         "datalogger": "*",
         "neopixel": "github:microsoft/pxt-neopixel#v0.7.6",
-        "maqueen": "github:dfrobot/pxt-maqueen#v1.7.17",
         "pxt-kitronik-servo-lite": "github:kitronikltd/pxt-kitronik-servo-lite#v1.0.9",
         "audio-recording": "*",
         "microturtle": "github:microsoft/pxt-microturtle#v0.0.10",
